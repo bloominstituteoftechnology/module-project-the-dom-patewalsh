@@ -67,7 +67,7 @@ describe('Sprint 5 Module', () => {
       })
     })
   })
-  describe('Task 3 - Corporate Speak', () => {
+  describe'Task 3 - Corporate Speak', () => {
     beforeAll(() => {
       jest.spyOn(global.Math, 'random').mockReturnValue(0.9)
     })
@@ -130,7 +130,7 @@ describe('Sprint 5 Module', () => {
       })
     })
   })
-  describe('Task 6 - Tabbing through widgets', () => {
+  describe.only('Task 6 - Tabbing through widgets', () => {
     test('👉 [11] Can tab through widgets', () => {
       const widgets = document.querySelectorAll('.widget')
       expect(widgets).toHaveLength(4)
